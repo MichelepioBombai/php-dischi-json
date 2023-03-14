@@ -1,3 +1,10 @@
+header {
+  background-color: hsl(209deg 68% 7%);
+  height: 120px;
+}
+
 .logo {
-  width: 100px;
+  width: 70px;
+  margin-left: 150px;
+  margin-top: 20px;
 }
