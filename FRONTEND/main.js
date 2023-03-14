@@ -8,3 +8,22 @@
 // Solo a questo punto sarà utile passare alla lettura della lista da un file JSON.
 // Bonus
 // Al click su un disco, recuperare e mostrare i dati del disco selezionato.
+
+const { createApp } = Vue;
+
+createApp({
+  data() {
+    return {
+      songs: [],
+    };
+  },
+
+  created() {
+    console.log(axios);
+    axios
+      .get("http://localhost/php-dischi-json/API/get-list.php")
+      .then((response) => {
+        this.songs = response.data;
+      });
+  },
+}).mount("#app");
