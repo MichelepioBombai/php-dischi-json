@@ -37,12 +37,28 @@
         alt=""
       />
     </header>
-    <ul v-for="song in songs">
-      <li>{{song.title}}</li>
-      <li>{{song.author}}</li>
-      <li>{{song.year}}</li>
-      <li><img :src="song.poster" alt="" /></li>
-      <li>{{song.genre}}</li>
-    </ul>
+
+    <main>
+      <div class="container">
+        <div class="row">
+          <div v-for="song in songs" class="col-4 mt-5 text-center">
+            <div class="bg-card">
+              <img class="img-song" :src="song.poster" alt="" />
+              <h3 class="text-white mt-3 bold">{{song.title}}</h3>
+              <p class="text-white mt-2">{{song.author}}</p>
+              <p class="text-white bold">{{song.year}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
+
+<!-- <ul v-for="song in songs">
+  <li>{{song.title}}</li>
+  <li>{{song.author}}</li>
+  <li>{{song.year}}</li>
+  <li><img :src="song.poster" alt="" /></li>
+  <li>{{song.genre}}</li>
+</ul> -->

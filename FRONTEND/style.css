@@ -4,7 +4,30 @@ header {
 }
 
 .logo {
-  width: 70px;
-  margin-left: 150px;
+  width: 80px;
+  margin-left: 270px;
   margin-top: 20px;
+}
+
+main {
+  background-color: hsl(209deg 35% 17%);
+  height: calc(100vh - 120px);
+}
+
+.img-song {
+  height: 220px;
+  margin-top: 20px;
+}
+
+.bg-card {
+  background-color: hsl(211deg 48% 13%);
+  border-radius: 10px;
+  height: 420px;
+  width: 330px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.bold {
+  font-weight: bolder;
 }
