@@ -5,7 +5,7 @@ header {
 
 .logo {
   width: 80px;
-  margin-left: 270px;
+  margin-left: 200px;
   margin-top: 20px;
 }
 
@@ -15,14 +15,14 @@ main {
 }
 
 .img-song {
-  height: 220px;
+  height: 200px;
   margin-top: 20px;
 }
 
 .bg-card {
   background-color: hsl(211deg 48% 13%);
   border-radius: 10px;
-  height: 420px;
+  height: 385px;
   width: 330px;
   padding-left: 10px;
   padding-right: 10px;
